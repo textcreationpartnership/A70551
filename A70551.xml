@@ -1,0 +1,711 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A journal of the Brest-Expedition by the Lord Marquiss of Cærmarthen.</title>
+            <author>Leeds, Peregrine Osborne, Duke of, 1658-1729.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1694</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 50 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A70551</idno>
+            <idno type="STC">Wing L917</idno>
+            <idno type="STC">ESTC R16059</idno>
+            <idno type="EEBO-CITATION">12209912</idno>
+            <idno type="OCLC">ocm 12209912</idno>
+            <idno type="VID">56248</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A70551)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 56248)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 765:28 or 910:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A journal of the Brest-Expedition by the Lord Marquiss of Cærmarthen.</title>
+                  <author>Leeds, Peregrine Osborne, Duke of, 1658-1729.</author>
+               </titleStmt>
+               <extent>46 p. : folded map.  </extent>
+               <publicationStmt>
+                  <publisher>Printed for Randal Taylor ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1694.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Folded map is lacking in filmed copy.</note>
+                  <note>This item appears at reel 765:28 as Wing C197 (entry cancelled in Wing 2nd ed.) and at reel 910:14 as Wing L917.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Brest Expedition, 1694.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:56248:1"/>
+            <p>A JOURNAL OF THE <hi>Breſt-Expedition,</hi> BY THE Lord MARQUISS OF <hi>CAERMARTHEN.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Randal Taylor</hi> near <hi>Amen-Corner.</hi> 1694.</p>
+         </div>
+         <div type="imprimatur">
+            <pb facs="tcp:56248:2"/>
+            <p>
+               <hi>This may be Publiſhed,</hi>
+            </p>
+            <closer>
+               <signed>EDWARD COOKE.</signed>
+               <dateline>
+                  <date>25 June 1694</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:56248:2"/>
+            <head>TO THE READER.</head>
+            <p>IT being my Lot in the <hi>Breſt</hi>-Expe<g ref="char:EOLhyphen"/>dition, to be on Board Their Maje<g ref="char:EOLhyphen"/>ſties Ship, the <hi>Royal William,</hi> com<g ref="char:EOLhyphen"/>manded by the Marquiſs of <hi>Caermarthen,</hi> Rear Admiral of the <hi>Blue,</hi> I ſaw at our return to <hi>Spit-Head,</hi> His Lordſhip<hi>'s</hi> Journal which he was ſending to His Grace the Duke of <hi>Leeds;</hi> I found it was ſo very Juſt, in every Particular, that I thought I ſhould do a very acceptable piece of Service to the Publick in print<g ref="char:EOLhyphen"/>ing it; I therefore got a Copy of it, which, with his Lordſhip's Allowance, I have here publiſhed, Word for Word, without any manner of Alteration, and have made an exact Draught of the Place, and manner of our Attack.</p>
+         </div>
+         <div type="table">
+            <pb facs="tcp:56248:3"/>
+            <head>Line of Battle, 1694. The <hi>Engliſh</hi> to lead with the Lar-board, and the <hi>Dutch</hi> with their Star-board Tacks on Board.</head>
+            <p>
+               <table>
+                  <row>
+                     <cell role="label" cols="2">Fire-Ships and Small Frigats.</cell>
+                     <cell role="label">Rates.</cell>
+                     <cell role="label">Ships.</cell>
+                     <cell role="label">Men.</cell>
+                     <cell role="label">Guns.</cell>
+                     <cell role="label">Diviſion.</cell>
+                     <cell role="label">Squadron.</cell>
+                  </row>
+                  <row>
+                     <cell>Zeyſt.</cell>
+                     <cell>46</cell>
+                     <cell> </cell>
+                     <cell>Weſtfrieſland.</cell>
+                     <cell>450</cell>
+                     <cell>88</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Deharder.</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>Koning William.</cell>
+                     <cell>530</cell>
+                     <cell>90</cell>
+                     <cell>Vice Adm. <hi>Van.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>Zeirick Zee.</cell>
+                     <cell>325</cell>
+                     <cell>60</cell>
+                     <cell>
+                        <hi>Putten.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Drakenſtein.</cell>
+                     <cell>44</cell>
+                     <cell> </cell>
+                     <cell>Captain General.</cell>
+                     <cell>500</cell>
+                     <cell>86</cell>
+                     <cell>S. B. N. <hi>Van. Goes,</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Weſel.</cell>
+                     <cell>30</cell>
+                     <cell> </cell>
+                     <cell>Stol. Muyden.</cell>
+                     <cell>400</cell>
+                     <cell>72</cell>
+                     <cell>Lieutenant Adm.</cell>
+                     <cell>Dutch.</cell>
+                  </row>
+                  <row>
+                     <cell>Wymberg.</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>Unic.</cell>
+                     <cell>550</cell>
+                     <cell>94</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Etna.</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>Damiaten.</cell>
+                     <cell>210</cell>
+                     <cell>50</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>De Wolf.</cell>
+                     <cell>30</cell>
+                     <cell> </cell>
+                     <cell>Munikendam.</cell>
+                     <cell>375</cell>
+                     <cell>70</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Brandenburg.</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>Waſſanaar.</cell>
+                     <cell>300</cell>
+                     <cell>60</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>Princeſs.</cell>
+                     <cell>500</cell>
+                     <cell>92</cell>
+                     <cell>Vice Adm. <hi>Schey.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>Cheuwirſten.</cell>
+                     <cell>500</cell>
+                     <cell>94</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell role="label">
+                        <hi>ENGLISH.</hi>
+                     </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Hawk.</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Charles, Fire Ships.</cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Suffolk.</cell>
+                     <cell>340</cell>
+                     <cell>60</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Blaze, Fire Ships.</cell>
+                     <cell> </cell>
+                     <cell>4</cell>
+                     <cell>Greenwich.</cell>
+                     <cell>280</cell>
+                     <cell>50</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Syam, Hoſp. Ship.</cell>
+                     <cell>1</cell>
+                     <cell>London.</cell>
+                     <cell>730</cell>
+                     <cell>100</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Shoreham.</cell>
+                     <cell> </cell>
+                     <cell>1</cell>
+                     <cell>Royal William.</cell>
+                     <cell>780</cell>
+                     <cell>106</cell>
+                     <cell>Rear Admiral.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Charles Galley.</cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Hope.</cell>
+                     <cell>460</cell>
+                     <cell>70</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Mercury, Advice Boat.</cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Dreadnought.</cell>
+                     <cell>400</cell>
+                     <cell>60</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Briſtol, Hoſp. Ship.</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>Blue.</cell>
+                  </row>
+                  <row>
+                     <cell>Roebuck.</cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Monck.</cell>
+                     <cell>340</cell>
+                     <cell>60</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Speedwell, Fire Ships.</cell>
+                     <cell> </cell>
+                     <cell>2</cell>
+                     <cell>Royal Katharine</cell>
+                     <cell>540</cell>
+                     <cell>80</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>St. Paul, Fire Ships.</cell>
+                     <cell> </cell>
+                     <cell>1</cell>
+                     <cell>Queen.</cell>
+                     <cell>780</cell>
+                     <cell>100</cell>
+                     <cell>Admiral.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Creſcent, Brigant.</cell>
+                     <cell> </cell>
+                     <cell>2</cell>
+                     <cell>Dutcheſs.</cell>
+                     <cell>660</cell>
+                     <cell>90</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Diſpatch, Brigant.</cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Edgar.</cell>
+                     <cell>445</cell>
+                     <cell>66</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Shark, Brigant.</cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Swiftſure.</cell>
+                     <cell>420</cell>
+                     <cell>66</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Diſcovery.</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Lyon.</cell>
+                     <cell>340</cell>
+                     <cell>60</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Owners Love.</cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Captain.</cell>
+                     <cell>460</cell>
+                     <cell>70</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>Machine, Fire Ships.</cell>
+                     <cell> </cell>
+                     <cell>2</cell>
+                     <cell>Neptune.</cell>
+                     <cell>730</cell>
+                     <cell>94</cell>
+                     <cell>Vice Adm.</cell>
+                     <cell>Red.</cell>
+                  </row>
+                  <row>
+                     <cell>Joſeph, Fire Ships.</cell>
+                     <cell> </cell>
+                     <cell>2</cell>
+                     <cell>Vanguard.</cell>
+                     <cell>660</cell>
+                     <cell>90</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>London Merchant, H.S.</cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Sterling Caſtle.</cell>
+                     <cell>460</cell>
+                     <cell>70</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell> </cell>
+                     <cell> </cell>
+                     <cell>3</cell>
+                     <cell>Defiance.</cell>
+                     <cell>400</cell>
+                     <cell>62</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+               </table>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="journal">
+            <pb n="5" facs="tcp:56248:3"/>
+            <head>
+               <hi>A JOURNAL KEPT AT SEA, BETWEEN THE</hi> Twenty Ninth of <hi>May,</hi> and the Fifteenth of <hi>June, 1694.</hi> With an exact and Im<g ref="char:EOLhyphen"/>partial Relation of our late Expedition and Attempts in <hi>Camarett Bay,</hi> near <hi>Breſt.</hi>
+            </head>
+            <p>
+               <hi>MAY</hi> 29. 1694: This Day we had little Wind, and variable, from the S.S.E. round the Compaſs. In the Morning we had the Signal for the Fleet to Weigh; but falling calm, rode faſt. Afternoon the Wind came to the N. W. with Showers of Rain, and at Night much Lightning.</p>
+            <p>
+               <pb n="6" facs="tcp:56248:4"/>On the 30th. about 4 a Clock in the Morning we had the Signal for Weighing, the Wind at N. N. W. and then to N. W. We came to Sail, and about 10 a Clock <hi>Donnoze</hi> bore S. W. by W. about 5 Miles diſtant. At 8 at Night the <hi>Needles</hi> bore N. W. by W. about 3 Leagues diſtant, we ſtanding off all that Night.</p>
+            <p>On the 31ſt. At 4 in the Morning the High Land of St. <hi>Albans</hi> bore N. ½ W. of us, about 3 Leagues diſtant. We had little Wind at N. W. About 9 there was a Council of War held on Board the <hi>Britannia,</hi> where were preſent,</p>
+            <list>
+               <item>Mr. <hi>Ruſſel,</hi> Admiral of the Fleet.</item>
+               <item>The Lord <hi>Berkeley,</hi> Admiral of the <hi>Blue.</hi>
+               </item>
+               <item>Sir <hi>Cloudeſley Shovel,</hi> Vice-Admiral of the <hi>Red.</hi>
+               </item>
+               <item>Colonel <hi>Aylmer,.</hi> Vice-Admiral of the <hi>Blue.</hi>
+               </item>
+               <item>Colonel <hi>Mitchel,</hi> Rear-Admiral of the <hi>Red</hi>
+               </item>
+               <item>The Marquis of <hi>Caermarthen,</hi> Rear-Admiral of the <hi>Blue.</hi>
+               </item>
+               <item>Captain <hi>Bing,</hi> eldeſt Captain to the Admiral.</item>
+               <item>Lieutenant-General <hi>Talmaſh.</hi>
+               </item>
+               <item>Earl of <hi>Macclesfield.</hi>
+               </item>
+               <item>The Lord <hi>Cutts.</hi>
+               </item>
+               <item>Sir <hi>Martin Beckman.</hi>
+               </item>
+               <item>
+                  <pb n="7" facs="tcp:56248:4"/>Admiral <hi>Allemonde,</hi> Admiral of the <hi>Dutch.</hi>
+               </item>
+               <item>Vice-Admiral <hi>Vander-Putten.</hi>
+               </item>
+               <item>Vice-Admiral <hi>Schey.</hi>
+               </item>
+               <item>Vice-Admiral, <hi>Vander-Goes.</hi>
+               </item>
+               <item>Rear-Admiral <hi>Everten.</hi>
+               </item>
+               <item>Captain <hi>Vander-Duten.</hi>
+               </item>
+            </list>
+            <p>
+               <hi>Where it was Reſolved,</hi>
+            </p>
+            <p>
+               <hi>Firſt,</hi> That the Fleet deſigned for <hi>Breſt</hi> ſhould make the beſt of their way for <hi>Camarett Bay,</hi> and Anchor there, where the Land-Forces were to be immedi<g ref="char:EOLhyphen"/>ately diſembarked, and the Fleet to remain at An<g ref="char:EOLhyphen"/>chor, 'till they had Advice from Lieutenant-General <hi>Talmaſh</hi> of the Condition of the Fort on the Star<g ref="char:EOLhyphen"/>board ſide going in, and what Forces he might find there.</p>
+            <p>
+               <hi>Secondly,</hi> That the going into <hi>Breſt</hi> Water with the Fleet being taken into Conſideration, 'twas not then thought adviſable, to come to any poſitive Reſolution at what time to go in, but to have that matter to be conſidered of, when the Fleet arrived at <hi>Camarett Bay.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> That a Red Enſign on the Fore-Top-Maſt-Head on Board the Admiral, and firing a Gun, was agreed upon to be the Signal for the Soldiers Imbarking on Board the ſmall Veſſels and Boats;
+<pb n="8" facs="tcp:56248:5"/>and the taking down the ſaid Signal, and firing Two Guns, the Signal for the Soldier's going from the Fleet on Shore.</p>
+            <p>But in going on Board the <hi>Britannia,</hi> there aroſe a Fogg, which laſted 'till Noon; then came a fine freſh Gale of Wind which clear'd up the Fogg; and at 8 at Night <hi>Portland</hi> bore N. W. by N. a<g ref="char:EOLhyphen"/>bout 3 Leagues diſtant.</p>
+            <p>
+               <hi>June</hi> 1ſt. At 4 a Clock in the Morning, <hi>Port<g ref="char:EOLhyphen"/>land</hi> bore N. W. about 5 Leagues diſtant, the Wind at W. by S. and at 8 (the Ebbing ſpent) we An<g ref="char:EOLhyphen"/>chored in 29 Fathom Water, (<hi>Portland</hi> bearing N. ½ W. about 4 Leagues diſtant) with pleaſant Weather. At 2 Afternoon we came to Sail again, and at 8 at Night the <hi>Start</hi> bore W. S. W. ½ S. a<g ref="char:EOLhyphen"/>bout 6 Leagues diſtant; and at 9 we Anchored in 19 Fathom Water, with a ſmall Breeze Northerly.</p>
+            <p>On the <hi>Second,</hi> at 3 a Clock in the Morning we Weighed, it being calm; and at 6 the <hi>Berry-Head</hi> bore W. by S. about 5 Leagues; at half an Hour after 9 we Anchored in 25 Fathom Water, where we lay till half an Hour after 2, then Weighed, having a fine Gale at S. W. and at 8 at Night the <hi>Berry</hi> bore W. S. W. about 3 Leagues diſtant, the Wind at N. W.</p>
+            <p>
+               <pb n="9" facs="tcp:56248:5"/>
+               <hi>June</hi> 3d. We had a Calm all the Morning, till about 7 a clock; then a ſmall Gale at N. N. W. Afterwards veering to the W. and W. S. W. At Noon we had the ſtart W. B. S. about 3 Leagues diſtant. And at 8 at Night N. W. B. N. about 3 Leagues, the Wind then at N. W.</p>
+            <p>On the 4th. At 4 a clock in the Morning, the <hi>Bolt</hi> bore N. W. about 3 Leagues diſtant, the Wind at W. N. W. afterwards came about to S. W. B. S. At Noon, the <hi>Bolt</hi> L and was N. B. W. half W. about 5 Leagues diſtant; and at 8 at Night, the <hi>Ram-head</hi> N. W. half W. about 5 leagues diſtant; all the Fleet at this time plying to the Weſtward.</p>
+            <p>On the 5th. At 4 a clock in the Afternoon (the Wind at N. W. and the <hi>Ram-head</hi> bearing N. of us, about 37 Miles diſtant) we parted from Admiral <hi>Ruſſel,</hi> with 29 Sail of Line of Battel Ships, Engliſh and Dutch (beſides ſmall Frigats, Fire-Ships, Machines, Tenders, Well-Boats, and 5 Bomb-Veſſels) under the Command of my Lord <hi>Berkely:</hi> The Admiral, with the reſt of the Fleet, at the ſame time, making the beſt of his Way for the <hi>Streights,</hi> and We for <hi>Camarett-Bay.</hi>
+            </p>
+            <p>
+               <pb n="10" facs="tcp:56248:6"/>On the 6th. At 9 a clock in the Morn<g ref="char:EOLhyphen"/>ing, my Lord <hi>Berkeley</hi> made the Signal for a Council of War, for conſulting, directing and ordering all things to be in a readineſs for Landing in <hi>Camarett-Bay.</hi> And,</p>
+            <p n="1">
+               <hi>1st.</hi> It was agreed to put in Execution the Reſolutions of the Council of War afore-men<g ref="char:EOLhyphen"/>tion'd, held on board the <hi>Britannia,</hi> the 31ſt. of <hi>May,</hi> Admiral <hi>Ruſſel</hi> Preſident.</p>
+            <p n="2">
+               <hi>2dly.</hi> It was reſolved to ſend a Lieutenant in each of the Ship's Boats (that carry the Men on ſhore) to Command them.</p>
+            <p n="3">
+               <hi>3dly.</hi> It being Propos'd to go in without Flags, it was Reſolv'd in the Negative.</p>
+            <p>My Lord <hi>Cutts</hi> advis'd landing all the Grena<g ref="char:EOLhyphen"/>diers (which were about 600) a little before the reſt of the Forces, that (in caſe the Enemy ſhould be intrench'd, and that it ſhould be re<g ref="char:EOLhyphen"/>ſolv'd to attack them) we might be in a bet<g ref="char:EOLhyphen"/>ter Condition to force their Entrenchments; and alſo advis'd, That before they ſhould land, a Captain, with 50 Grenadiers, might go on ſhore,
+<pb n="11" facs="tcp:56248:6"/>to diſcover the Poſture and Countenance of the Enemy; for 'twas his Lordſhip's Opinion (if their Intrenchments were very ſtrong, and ſu<g ref="char:EOLhyphen"/>ſtain'd by Regular Troops) not to attack them, believing the thing, in ſuch a caſe, not to be practicable; but if the Grenadiers ſhould all land, then the reſt of the Forces ſhould imme<g ref="char:EOLhyphen"/>diately land to ſuſtain them. This Advice of his Lordſhip's was by all extremely well-approved of, and Lieutenant-General <hi>Talmaſh</hi> himſelf agreed it ſhould be ſo: accordingly it was order'd, That all the Grenadiers ſhould be embark'd on the Well-Boats, and my Lord <hi>Cutts</hi> very honoura<g ref="char:EOLhyphen"/>bly offer'd his Service to Command them; which Lieutenant-General <hi>Talmaſh</hi> alſo conſen<g ref="char:EOLhyphen"/>ted to.</p>
+            <p>It was alſo conſulted at this Council of War, Whether we ſhould ſtand in for <hi>Camarett-Bay</hi> that Night (though in the Night,) And 'twas Reſolv'd, To endeavour to make the Land that Evening, and to go in as far as we could in the Night. Accordingly we made ſail, and about 6 a clock in the Evening we ſaw <hi>Uſhant,</hi> bear<g ref="char:EOLhyphen"/>ing S. E. half E. about 7 Leagues diſtant; but at 10, ſo many of our Tenders and Well-Boats, beſides ſome Ships, were ſo far a-ſtern,
+<pb n="12" facs="tcp:56248:7"/>that we were forc'd to lie by for them, till 3 the next Morning.</p>
+            <p>
+               <hi>June</hi> 7th. At Three a clock in the Morning we made ſail, the Wind at N. N. E. At Four, had <hi>Uſhant</hi> E. S. E. of us, about Three Leagues diſtant. At Twelve, St. <hi>Matthew</hi>'s-<hi>Cloyſter</hi> bore N. E. B. E. And at Half an hour after One (the Tyde of Ebb being ſtrongly made) we were forc'd to come to an Anchor about a league S. S. E. from St. <hi>Matthew</hi>'s Point, in 20 Fathom Water. At Five (the Tyde of Flood being made) we weighed again, and ſtood in; and at Seven, came to an Anchor between <hi>Camarett</hi>-Bay, and the Bay of <hi>Bertheaume,</hi> in 16 Fathom Water.</p>
+            <p>In our coming in (the Wind ſhortning upon us) we were forc'd to make two Trips from ſide to ſide, before we could get to our deſign'd Anchoring-place. In which time, we were re<g ref="char:EOLhyphen"/>ceived with Bombs from 4 Points of high Land. The firſt Bomb that was thrown at us, was from the Weſt Point of <hi>Camarett</hi> Bay, our Ships being forc'd (at firſt) to ſtand near that Point, the Wind being at N. N. E. ſo that we had ſeveral Bombs thrown at us before we tack'd, and ſtood the
+<pb n="13" facs="tcp:56248:7"/>other way, and after we were about, and had ſtood pretty near the N. Shore, we were alſo re<g ref="char:EOLhyphen"/>ceived with ſeveral Bombs from an old Caſtle which ſtood very high upon a little Iſland cloſe to the W. Point of <hi>Bertheaume</hi> Bay; and after we had tack'd again, as we were ſtanding in to come to an Anchor, the other Two Points on each ſide of the Narrow, going into <hi>Breſt</hi> Road, (one on the N. ſide, called <hi>Point des Minoux;</hi> the other on the S. ſide, called <hi>Point des Filletes,</hi> (which is the W. end of <hi>Point 'Spanicle,</hi>) play'd alſo their Bombs at us. But the Two latter could not throw them ſo far as our Ships, tho' the Two former did; and after we were come to an An<g ref="char:EOLhyphen"/>chor, they continu'd throwing Bombs at us from all the afore-mention'd Places, till Ten a clock at night, but did us no damage at all.</p>
+            <p>A little before we came to an Anchor, My Lord <hi>Cutts,</hi> and my ſelf, agreed to go on Board my Galley, and look into <hi>Camarett</hi>-Bay, taking a<g ref="char:EOLhyphen"/>long with us Sir <hi>John Jacobs,</hi> Captain <hi>Pitman,</hi> Captain <hi>Hammond,</hi> Mr. <hi>Vanbrooke,</hi> &amp;c. that were on Board the <hi>Royal William,</hi> and accordingly went on Board my Lord <hi>Berkely</hi> for leave, where we met my Lord <hi>Mohun,</hi> and Mr. <hi>Wharton,</hi> who alſo deſir'd to go along with us; and having ſtood
+<pb n="14" facs="tcp:56248:8"/>well into the Bay, ſo as to gain a good View of it, we were warmly fir'd at by <hi>Camarett</hi>-Fort; but by the Aſſiſtance of thoſe few little Guns we had in the Galley, and the good Sailing of her, we made a ſhift in our own Smoke to get out a<g ref="char:EOLhyphen"/>gain, without any Damage.</p>
+            <p>Then we return'd on Board my Lord <hi>Berkely,</hi> and after having given an Account of the Poſture of the Bay, and the Situation of its Caſtle, how advantagiouſly it lay for defending the Landing-Places; 'twas thought fit that Two Ships of a<g ref="char:EOLhyphen"/>bout 60 Guns each, ſhould be ſent in, in the morning to batter that Caſtle, and accordingly my Lord <hi>Berkely</hi> ordered the <hi>Monk,</hi> and a Dutch Man of War, about the ſame Force, to go in for that purpoſe. But I (having view'd the Place) did believe that Two Ships would not be ſufficient to cover our Boats at their Landing, from the Fire of that Fort, and therefore mov'd his Lordſhip to think of ſending ſuch a Num<g ref="char:EOLhyphen"/>ber, as would be ſufficient not only to ſecure the Boats from the Shot of the Caſtle, but alſo give Aſſiſtance to our Land-Forces, (when landing) by playing ſome of our Cannon upon the Enemies Troops, which we had great Reaſon to believe would ſtrongly oppoſe them; finding them much
+<pb n="15" facs="tcp:56248:8"/>better prepared on all ſides, with Mortars, Guns, and Men, than we expected: But all my Pro<g ref="char:EOLhyphen"/>poſals in that Matter, my Lord <hi>Berkely</hi> referr'd to the Opinion of a Council of War, which he then reſolved to call the next morning by Three or Four a clock.</p>
+            <p>On the 8th. at Break of Day, was a ſtark Calm, and ſo great a Fog, that we could not ſee half the length of our Ships from us, and continued ſo till between 6 and 7, at which time the day clear'd up, ſo that the Signal for a Coun<g ref="char:EOLhyphen"/>cil of War was eaſily perceived; as alſo that for Embarking the Soldiers, at the ſame time we ſaw drawn up in a Line, upon the High-land on the W. ſide of <hi>Camarett</hi>-Bay, Fourteen Squa<g ref="char:EOLhyphen"/>drons of the Enemies Horſe, which appeared to us to be Regular Troops, being all very well cloathed.</p>
+            <p>Between Seven and Eight a Clock, the Coun<g ref="char:EOLhyphen"/>cil of War, conſiſting of the Engliſh and Dutch Flags, and the General Officers of the Land-For<g ref="char:EOLhyphen"/>ces, were aſſembled, and after conſulting what was beſt to be done, for the ſecuring our Land-Forces, on their Approach to the Enemies Shore, and to cover their Landing, 'twas reſolved (as I
+<pb n="16" facs="tcp:56248:9"/>had propoſed to my Lord <hi>Berkely</hi> the night before) to ſend in Three Engliſh, and Three Dutch Fri<g ref="char:EOLhyphen"/>gats more, beſides the <hi>Monk</hi> and Dutch Man of War afore-mentioned, which were only ordered to batter the Fort, and I (having the night before been in the Bay, and view'd the Poſture thereof) offer'd my Service to Command the Ships ordered on this Occaſion; which being Accepted of, I deſir'd alſo, that Lieutenant-General <hi>Talmaſh</hi> might fend ſome fitting Land-Officers, to go in with me, who (when we were come to an Anchor in the Bay) might be able, and return ſoon enough to give him an Account of all the Difficulties was poſſible for us, from our Ships, to diſcover in any of the proper Landing-Places, ſo that he might the better avoid thoſe Difficulties, and land in the moſt eaſie Place of Acceſs; which alſo was agreed to, and accordingly the Lieute<g ref="char:EOLhyphen"/>nant-General appointed Monſieur <hi>Mountergis</hi> to go with me.</p>
+            <p>In all other Matters, this Council of War a<g ref="char:EOLhyphen"/>greed in their Reſolutions with that of the 6th. excepting this Addition, That when my Lord <hi>Berkely</hi> ſhould hoiſt a White Flag at the Fore-Top-Maſt Head, all the Ships, Small Veſſels, and Boats, ſhould come off, and make the
+<pb n="17" facs="tcp:56248:9"/>beſt of their Way, out of the Bay to him a<g ref="char:EOLhyphen"/>gain.</p>
+            <p>Before the Council of War was ended, ſe<g ref="char:EOLhyphen"/>veral of the Veſſels and Boats, (in which the Land-Forces were Embarqu'd) came under my Lord <hi>Berkley</hi>'s Stern, but the Myſty Wea<g ref="char:EOLhyphen"/>ther before, and the Calm, which yet conti<g ref="char:EOLhyphen"/>nued, hindred them from getting to that Rendezvous, ſo ſoon as was deſign'd, by Three or Four Hours.</p>
+            <p>I alſo deſir'd my Lord <hi>Berkely</hi> (tho' he had ordered the <hi>Monk,</hi> and <hi>Damiaten,</hi> a Dutch Man of War, to go in and batter that Fort, before I came in with the other ſix Ships,) that he would give me leave to go in with the <hi>Monk,</hi> and lay her and the ſaid Dutch-man in the moſt proper Stations for ſo doing, be<g ref="char:EOLhyphen"/>cauſe neither of the Captains knew any thing of the Figure of that place, and I could ea<g ref="char:EOLhyphen"/>ſily return time enough, for leading in the o<g ref="char:EOLhyphen"/>ther ſix Ships, and place them alſo to the beſt Advantage; which his Lordſhip granted, and agreed would be very convenient, ſo taking my leave of him, I went on Board the <hi>Charles</hi>
+               <pb n="18" facs="tcp:56248:10"/>Galley, and hoiſted my Flag there, he not being willing I ſhould hoiſt it on Board the <hi>Monk,</hi> becauſe he would have me take the greateſt care of poſting the other ſix Frigates as conveniently as could be to cover our For<g ref="char:EOLhyphen"/>ces landing, and to annoy (as much as poſſi<g ref="char:EOLhyphen"/>ble) the Enemies Forces, which we had great reaſon to believe was intrencht on the Eaſt ſide of the Bay; ſo that to have hoiſted my Flag on board the <hi>Monk,</hi> to have ſtruck it again, (when 'twas abſolutely neceſſary to have it on board another Ship for leading in the reſt to their deſign'd Stations) would have given ſuch encouragement to the Enemy, that they would have thought they had knook'd down a Flag-Officer, or that they had done us a great deal more damage than they did.</p>
+            <p>The Six Ships appointed to go into the Bay with me on this occaſion, were the <hi>Greenwich,</hi> a Ship with Fifty-four Guns mounted, the <hi>Charles</hi> Galley with Thirty-two, and the <hi>Shorehim</hi> with Thirty-two; and the <hi>Drakenſtein</hi> with Forty-four, the <hi>Weſep</hi> with Thirty, and the <hi>Wolfe</hi> with Thirty; but the <hi>Greenwich,</hi> (on board of which I had deſign'd to have horſted
+<pb n="19" facs="tcp:56248:10"/>my Flag) by reaſon of the Negligence of her Commander, (whoſe Name is <hi>Weyghman</hi>) or his Cowardice, or both, had diſobey'd my Orders, and came not near me all that day; ſo that the beſt half of the <hi>Engliſh.</hi> Force, in that little Detachment, was left behind: After I had hoiſted my Flag I called together the Five Captains, that afterwards went in with me, and gave them as good a Deſcrip<g ref="char:EOLhyphen"/>tion, by a Map, as I could, of the Bay we were going into, and how I deſign'd they ſhould be there Poſted, and what we were then to do, Ordering them with the Five Ships under their Command to follow at ſuch a convenient Diſtance from me, as that (after I had poſted the <hi>Monk,</hi> and Dutch Man of War appointed to batter the Fort) I might return time enough to lead them into their proper Stations.</p>
+            <p>Then I went on Board the <hi>Monk,</hi> it be<g ref="char:EOLhyphen"/>ing about Twelve of the Clock at Noon, making the beſt of my way in for the Bay: But it continued yet ſo calm, that I was forc'd to get Boats to tow us on our way, and as ſoon as we were ſeparated a little
+<pb n="20" facs="tcp:56248:11"/>from the Fleet, the Enemy began to throw their Bombs very faſt upon us from <hi>Point des Fillettes,</hi> and the VV. Point of <hi>Camarett</hi>-Bay, and after we were come within Three Quarters of a Mile of the latter, one of their Bombs broke juſt over our Heads, in the <hi>Monk,</hi> a great piece of which ſtruck through her Poop, and Two Decks more, and came out again into the VVater near one of the Stern Ports, on the Larboard-ſide in the Gun-Room, killing Two Marines of my own Company, and wounding a Third which ſtood cloſe by me on the Poop, and ſoon after (which was about One of the Clock) a fine Breeze ſprung up at North-VVeſt, which ſet us apace into the Bay, and as ſoon as we were come up a-breſt of the VVeſt-Point, <hi>Camarett</hi>-Fort fir'd very faſt at us; and we being
+<pb n="21" facs="tcp:56248:11"/>forc'd, at that time, to ſtand with our Stem right upon it, the Shot from thence did us a great deal of Damage; they, for a conſiderable time having the opportunity of Raking us fore and aft, (no Shot from the Fort being thrown at us of a leſs nature than a Demi-Cannon,) and we not able to bring any but our chaſe Guns to bear upon them. And after we were pret<g ref="char:EOLhyphen"/>ty well ſhot into the Bay, we were furpriz'd with Three Batteries firing upon us; which we did not perceive, or know any thing of, till we felt their Shot: two of which, as we were going in, was on our Starboard-ſide, one of Three Guns, and the other of Five, and another of Six Guns, upon our Starboard Bow, cloſe by <hi>Camarett</hi>-Church. There was alſo a Redoubt ſtood pretty high behind the Fort and the Church, which had five or ſix
+<pb n="22" facs="tcp:56248:12"/>Guns mounted, but of a ſmall nature. So when the reſt of the Ships came up, finding all theſe Batteries ſo ex<g ref="char:EOLhyphen"/>tremely defenſive againſt us, I was forc'd to alter my former Reſolutions of placing them; and after I had brought the Monk, and a Dutch Man of War, into the moſt proper Station I could judge, for battering the Fort, I was neceſſitated my ſelf to go on board every particular Ship, that was following me, to fix ſome of them, ſo as to give Diverſion to thoſe Batteries; and the others in the moſt conve<g ref="char:EOLhyphen"/>nient Stations I could at that time get them to, for defending our Land-Forces (on their approach to the Shore) from the Cannon-ſhot; and alſo to execute our Deſign on the Enemies Land-Forces, and cover our own on their Deſcent. But I had no ſooner parted from the <hi>Monck,</hi> but
+<pb n="23" facs="tcp:56248:12"/>the Wind came about to the N. E. which then alſo made it very diffi<g ref="char:EOLhyphen"/>cult for me to proſecute my De<g ref="char:EOLhyphen"/>ſign; but with getting moſt of their Boats together, and towing firſt one Ship, and then another, I made a ſhift, at laſt, to poſt them in ſuch a manner, that I am very well aſſured, gave great Succour to our Land-Forces, and alſo a conſiderable An<g ref="char:EOLhyphen"/>noyance of the Enemy; though not ſo much as they ſhould have done, had not the Wind unluckily come about from the Weſtward to the Eaſt<g ref="char:EOLhyphen"/>ward.</p>
+            <p>As ſoon as we were come to an Anchor, Monſieur <hi>Mountergis,</hi> as well as my ſelf, plainly perceived that the Enemy had very advanta<g ref="char:EOLhyphen"/>giouſly intrench'd themſelves at e<g ref="char:EOLhyphen"/>very place where there was any poſ<g ref="char:EOLhyphen"/>ſibility
+<pb n="24" facs="tcp:56248:13"/>of Landing; and there was alſo great numbers of Foot drawn behind their Trenches, beſides ſome Regular Troops of Horſe. And as we were ſtanding into the Bay, we ſaw all thoſe Squadrons of Horſe (which were before drawn up on the high Land on the VVeſt-ſide of the Bay) riding round, as faſt as they could, to the deſign'd Landing<g ref="char:EOLhyphen"/>place.</p>
+            <p>As ſoon as we had ſeen theſe uncomfortable Proſpects, Monſieur <hi>Mountergis</hi> went with all ſpeed to acquaint the Lieutenant-General there<g ref="char:EOLhyphen"/>with; who was at that time with moſt of the Land-Forces pretty well advanc'd towards the Bay, (the Sig<g ref="char:EOLhyphen"/>nal being made for the Forces going on ſhore as ſoon as I began to engage.)</p>
+            <p>
+               <pb n="25" facs="tcp:56248:13"/>I thought our Land Forces mov'd towards the Shore in great diſorder, and how it hap<g ref="char:EOLhyphen"/>pned I know not, but Lieutenant General <hi>Talmaſh,</hi> with a ſmall number of Well-boates in a kind of confuſed manner, went on ſhore under a little Rock on the South ſide of the ſmall Bay, where they landed: And I ſaw no proſecution of that regular way of landing, which my Lord <hi>Cutt's</hi> propoſed, and was be<g ref="char:EOLhyphen"/>fore agreed on; but having a great deal on my hands, and ſo little aſſiſtance, that I was forc'd, generally to go on my own Meſ<g ref="char:EOLhyphen"/>ſages, I am able to give but little account of what was done cloſe by the Shore: Only that when I ſaw the Boates, and ſmall Veſſels (in which our Land Forces were imbarqu'd) had made their retreat from thence, (except<g ref="char:EOLhyphen"/>ing ſuch as ſtuck faſt there, in which a great many men were kill'd, and out of which others were taken Priſoners, and ſome jumpt into the Water, endeavouring that way to make their eſcape) I went with my 20 Oar'd<g ref="char:EOLhyphen"/>boat pretty cloſe to the Shore in hopes to ſave ſome, and had the good fortune to take
+<pb n="26" facs="tcp:56248:14"/>up ſeveral before they were drown'd; at the ſame time I had the opportunity to take notice of the diſpoſition of that little Bay. The Enemy juſt then making a run<g ref="char:EOLhyphen"/>ning Fire round all their Trenches, and from every Battery they had rais'd on this occaſi<g ref="char:EOLhyphen"/>on; and tho they alſo fir'd Ball at us, it preſently ſhew'd they meant it only as a ſignal of their Victory, but by that means I eaſi<g ref="char:EOLhyphen"/>ly diſcovered how they were provided.</p>
+            <p>This was a Sandy Bay, about 300 yards in Front, and was naturally eaſie of acceſs, and was flankt on the right, and left with ſtrong Earth-works, and Cannon, and had a deep Trench of Communication, from one work to the other fronting the Water, with<g ref="char:EOLhyphen"/>in leſs than half Muſquet-ſhot from the wa<g ref="char:EOLhyphen"/>terſide. But according to my poor judgment in matters of this kind, the preparations they had made was ſuch (the great number of the Troops both of Horfe and Foot, which they had behind their Works to ſuſtain them, conſidered) it would have been altogether
+<pb n="27" facs="tcp:56248:14"/>impoſſible (had we had double our Force) to have executed our Deſign.</p>
+            <p>Our Ships both at their comming in, and when anchored in the Bay made a very vigorous fire upon the Enemy for about 3 hours but <hi>Camarett</hi>-fort had ſuch thick Walls and our men was ſo undiſciplin'd and ſuch ill Marks<g ref="char:EOLhyphen"/>men, that I believe we did the Fort but little Damage, tho we occaſion'd their men to run out of it twice, and ſaw their Officers, driving them back again, but after that, our men ſeeing the Boates with the Land Forces were repulſed, and forc't to retreat, and the <hi>French</hi> Batteries firing ſtill very vigorouſly on them, and every moment ſome of them falling, and many kill'd and wounded; great numbers of the Ships Companies that were there, both <hi>Dutch</hi> and <hi>Engliſh,</hi> ran into the Hold, in ſpight of all the Officers could do to prevent it.</p>
+            <p>As ſoon as I had diſpoſed of the poor men I ſav'd from drowning, I went on Board the <hi>Charles Gally</hi> again, and after I had been
+<pb n="28" facs="tcp:56248:15"/>there about half and hour, I ſaw the ſignal made for bringing off the Ships, and accor<g ref="char:EOLhyphen"/>dingly ſent to every Ship to get off as faſt as they could: But the greateſt difficulty I had in all this Action was to effect that part, for almoſt all their Rigging was cut to pieces, and moſt of their Maſts and Yards diſabled, ſo that there was no way left to preſerve them, but by Towing them off with great number of Boates, and we had but very few left with this Little Squadron, by reaſon almoſt all the Boates in the Fleet were forc't to be made uſe of for the aſſiſtance of the Landforces. So that Boates being our only remedy, and de<g ref="char:EOLhyphen"/>lay in getting them, of moſt dangerous conſe<g ref="char:EOLhyphen"/>quence, and fearing an inferior Officer might not be ſo ſpeedily obey'd, I was oblig'd to go my ſelf after the Pinnaces and Barges, car<g ref="char:EOLhyphen"/>rying off ſome of the Officers of the Land For<g ref="char:EOLhyphen"/>ces, and (diſimbarking ſome of them) force in as many of the Boates as I could procure, timely enough, to tow off the Ships, the Boates Crews being very unwilling to go back to ſuch a hot place notwithſtanding I return'd with them,
+<pb n="29" facs="tcp:56248:15"/>and then not having enow to imploy in towing off two Ships at once, I firſt clapt them all to the <hi>Charles Gally,</hi> ſhe being the fartheſt ad<g ref="char:EOLhyphen"/>vanc'd into the Bay, and the moſt diſabled in her Maſts, Sails and Rigging, and alſo her Rudder having received ſuch an unlucky Shot, as made it wholly unſerviceable to her. But by this time the <hi>Shoreham,</hi> whoſe Maſts, Sails and Rigging were not ſo much diſa<g ref="char:EOLhyphen"/>bled as the reſt, by the aſſiſtance of two or three Boates got out of the Bay clear of all. And after I had tow'd the <hi>Charles Gally</hi> ſo far out as that ſhe had weathered the Rock, cloſe by the Weſt Point of the Bay, I took all the Boates from her but three, and brought them back with all Expedition, and clapt them to the <hi>Monk</hi> At this time the <hi>Dutch</hi> Man of War (which I had poſted with her Broad-ſide to the little Bay, where our Forces attempted to Land) being a great deal to windward of the reſt, (and having received very little Damage, as being at the greateſt diſtance from <hi>Camarett</hi>-fort, and the
+<pb n="30" facs="tcp:56248:16"/>Batteries on the Weſt ſide,) immediately ſailed out, without the aſſiſtance of any Boates. Whereupon, her Boates, with what other <hi>Dutch</hi> Boates I could meet, I ſent to the aſſiſtance of two of the other <hi>Dutch</hi>-men of War, which lay on the Weſt ſide of the Bay, and in a ſhort time, tho they were very much ſhatter'd, made a ſhift to get out. By that time they were out, the <hi>Monk</hi> had got up her Anchors; and after I had given the Fort her broadſide (as near as I could) in a Volley, (the boates being all ready) I made them tow her Head round off in that Smoke, and ſo continue towing as faſt as they could. No ſooner was her Smoke diſperſed, but the Ene<g ref="char:EOLhyphen"/>my (perceiving her going off) fir'd (I think) more vigorouſly at her than they had done all the time before, and (her Stem lying fair with the Fort) what Shot then took place in her, (raking her fore and aft) did her more damage, than ſhe had receiv'd moſt of the time before: She being not far from the Weſt ſide of this Bay, and the Wind at <hi>E. N. E.</hi>
+               <pb n="31" facs="tcp:56248:16"/>and having no Sails to make uſe of, but her tow Courſes, all her Topmaſts, Rigging, Yards, and her Rudder alſo being ſo much diſabled, that ſhe had no Steeridge, but what the boates gave her, occaſion'd her driving ſo much to<g ref="char:EOLhyphen"/>wards that ſhore, ſo that we were forc'd to make the Boates to tow all they could to windward, which laid them ſo open to the Forts Shot, which the Enemy perceiving, fir'd as faſt as they could at them, and their Shot flew ſo thick among the Boats, that it diſhearten<g ref="char:EOLhyphen"/>ed their Crews, that they gave over towing, and ran all of a huddle under the ſhelter of the Ship, notwithſtanding all the Officers could ſay or do to encourage them; ſo that for their encourage<g ref="char:EOLhyphen"/>ment I was forc'd to go my ſelf in my own boat, and tow, in the middle of them, that the Ship might be kept from the Rock near the point to the Leward of her, towards which ſhe then drove very faſt. I had been but a little while among them, before a ſhot ſtruck through a boat, on my Right, hand, which wounded a Lieuten<g ref="char:EOLhyphen"/>nant and one of his Men, and almoſt ſunk
+<pb n="32" facs="tcp:56248:17"/>her, and a little while after, came a Shell in<g ref="char:EOLhyphen"/>to a Boat on my left hand, cloſe by me which killed four Men and wounded two more, and ſunk the Boat, all at once; and this ſo diſ<g ref="char:EOLunhyphen"/>incourag'd my Men, that they all gave over towing, and began to get under the ſhelter of the Ship again, ſo that I was forc'd my ſelf to fire a Muſquet at them, and to take up another to do the ſame, before I could make them return to their work.</p>
+            <p>With theſe difficulties I made a ſhift to get the <hi>Monk</hi> clear of this dangerous Rock, and brought her off, tho ſhe did not eſcape coming upon it near half her Length, where if ſhe had ſtruck ſhe would have moſt cer<g ref="char:EOLhyphen"/>tainly been loſt.</p>
+            <p>After I had got her clear, and out of all danger, there was but one Ship left be<g ref="char:EOLhyphen"/>hind, which was a ſmall <hi>Dutch</hi>-Man of 30 Gunn's called the <hi>Weeſep.</hi> I had ſome time before called to ſeverall <hi>Dutch</hi> Boats to go and
+<pb n="33" facs="tcp:56248:17"/>help her, but finding they had not obey'd my Order, I was going my ſelf, when I ſaw two Boats put off from her ſide: I row'd up to them, to know in what condi<g ref="char:EOLhyphen"/>tion She was, and found an <hi>Engliſh</hi> Enſign in one of them; who told me, the Captain, with all his Officers, and Men, were kill'd, but what I ſaw in thoſe two Boats; and that the Ship had Twelve Foot Water in Hold, and was ſinking: He ſaid likewiſe, that half the Company he belong'd to, being acciden<g ref="char:EOLhyphen"/>tally left on Board with him, were all kill'd, but himſelf, a Drummer, and one Man more; and ſeeing there was no poſſibility of ſaving her, I went immediately to my Lord <hi>Berke<g ref="char:EOLhyphen"/>ley,</hi> who was then on Board the <hi>Dread-nought</hi> (where the General was carried in order to his going to <hi>England,</hi> for the taking care of the Wound he had received in his Thigh:) moſt of the Flag and General Officers of the Land Forces, being alſo then on Board the <hi>Dread-nought</hi> to ſee the Lieutenant General. My Lord <hi>Berkeley</hi> thought it very convenient to conſult what was beſt to be done, and with<g ref="char:EOLhyphen"/>out making a Signal for a Council of War, he
+<pb n="34" facs="tcp:56248:18"/>ſent for the reſt of the Flag-Officers; and after a long Conſultation, the Reſult was as fol<g ref="char:EOLhyphen"/>lows, word for word.</p>
+            <q>
+               <pb n="35" facs="tcp:56248:18"/>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="account">
+                        <head>At a Council of War of Flag-Officers at Sea, and General-Officers at Land, held on Board Their Majeſties Ship the <hi>Dread-nought</hi> the 8th. of <hi>June 1694.</hi> in <hi>Camarett</hi> Road.</head>
+                        <p>OUR ill Succeſs this Day on Shore be<g ref="char:EOLhyphen"/>ing conſidered, and that the Enemy were intrenched almoſt in every Bay, it was conſidered what was now beſt to be done with the Fleet and Land-Forces on Board. General <hi>Talmaſh</hi> being asked, If he had Power to make any Attempt upon any other place than <hi>Breſt,</hi> he ſaid he had not; but propoſed, if it might not be for the
+<pb n="36" facs="tcp:56248:19"/>Service to ſend into <hi>Breſt</hi> a Squadron of ſmall Frigats, with Bomb-Veſſels, to try to Bomb the Town; but 'twas thought by the Council of War by no means adviſeable, becauſe they could not go in without a Weſterly Wind, which was now Eaſterly; nor could they come out again, without an Eaſterly Wind; ſo that we ſhould be bound to ſtay there for them, were it ne<g ref="char:EOLhyphen"/>ver ſo long; beſides, not knowing certainly what Forces the Enemy might have in <hi>Breſt,</hi> it might be ſending them into the Enemy's hands.</p>
+                        <p>It being then propoſed, what was the beſt place to go to from hence; <hi>Spithead</hi> was reſolved upon, it being the fitteſt place to Land the Soldiers, and to re-fit our maimed Ships; it was alſo reſolved to leave two Men of War, and two Fireſhips off <hi>Uſhant,</hi> to give Notice to all Ships, that came there to ſeek for us, where we were gone. Another reaſon for not ſending the ſmall Frigats with the Bomb-Veſſels into <hi>Breſt,</hi> was, That one was ſunk battering the Forts, and moſt of the
+<pb n="37" facs="tcp:56248:19"/>reſt for the preſent made unſerviceable, Re<g ref="char:EOLhyphen"/>ſolved to Sail to morrow Morning by break of Day, Wind and Weather permitting.</p>
+                        <closer>
+                           <signed>
+                              <list>
+                                 <item>
+                                    <hi>Berkeley,</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Clou. Shovell,</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Carmarthen,</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Fran. Allemonde,</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Car. Vander-Putten,</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Jills Schey,</hi>
+                                 </item>
+                                 <item>
+                                    <hi>P. Vandergoes,</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Tho. Talmaſh,</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Macclesfield,</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Cutts.</hi>
+                                 </item>
+                              </list>
+                           </signed>
+                        </closer>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <p>After this Conſultation was over, every Officer returned to his proper Ship.</p>
+            <p>In this Action, all the Captains (both <hi>Engliſh</hi> and <hi>Dutch</hi>) who com<g ref="char:EOLhyphen"/>manded the Ships that went into <hi>Camarett Bay,</hi> behaved themſelves with great Gallantry, and particu<g ref="char:EOLhyphen"/>larly
+<pb n="38" facs="tcp:56248:20"/>Captain <hi>Warren,</hi> Commander of the <hi>Monk;</hi> who not only ſhewed himſelf to be a Man of extraordina<g ref="char:EOLhyphen"/>ry Courage, but in all kinds beha<g ref="char:EOLhyphen"/>ved himſelf as well as 'twas poſſible for a Commander to do.</p>
+            <p>On this occaſion moſt of the Vo<g ref="char:EOLhyphen"/>lunteers on Board the Royal <hi>William</hi> offered me their Service, which I accepted of, and they all behaved themſelves extraordinarily well, and were moſt of them of great uſe to me, particularly Mr. <hi>Vanbrooke,</hi> Cap<g ref="char:EOLhyphen"/>tain <hi>Chaſſeloup,</hi> Mr. <hi>Bonard,</hi> and Mr. <hi>Dixon</hi> (my Secretary.)</p>
+            <p>Mr. <hi>Vanbrooke</hi> during all this A<g ref="char:EOLhyphen"/>ction, ſtuck very cloſe to me, and in a great many things, was ex<g ref="char:EOLhyphen"/>tremely ſerviceable both by his ad<g ref="char:EOLhyphen"/>vice and otherwiſe.</p>
+            <p>
+               <pb n="39" facs="tcp:56248:20"/>Captain <hi>Chaſſeloup</hi> was with me both in the <hi>Monk,</hi> and <hi>Charles Galley,</hi> in which Ships, he was often forc'd to do the Duty both of Lieutenant and Maſter; and without him, (he knowing the place particularly well) I ſhould not have been able to have poſted the Ships ſo conveni<g ref="char:EOLhyphen"/>ently as I did.</p>
+            <p>The <hi>Charles Galley</hi> having but one Lieutenant on Board Her, and he ſo dull a Creature, that he was very uſeleſs, Mr. <hi>Bonard</hi> and <hi>Dixon</hi> were forc'd to ſupply his Defects, which each of them perform'd with ſo much Courage and Dexterity, that with<g ref="char:EOLhyphen"/>out them, the Captain would have had no aſſiſtance, and the Ship have been much more unſerviceable than She was.</p>
+            <p>
+               <pb n="40" facs="tcp:56248:21"/>Mr. <hi>Shewell,</hi> my Chaplain, would needs go along with me likewiſe on this occaſion, and was very ſervice<g ref="char:EOLhyphen"/>able, ſhewing a great deal of Brave<g ref="char:EOLhyphen"/>ry himſelf, and giving good Advice, and thereby great incouragement to the Seamen.</p>
+            <p>
+               <hi>Theophilus Hodgſon</hi> (my Eldeſt Lieutenant) went alſo voluntarily along with me, whoſe Service (had he not been with us at our going in and coming out) we ſhould have much wanted, for beſides the Service he did in general, when it was hard to find any of the <hi>Monks</hi> People that would attempt it, he very readily clap'd a Spring upon Her Cable, by that means to bring Her Broad-ſide to bear on the Enemies Fort, and in get<g ref="char:EOLhyphen"/>ting the Ship off, he both performed
+<pb n="41" facs="tcp:56248:21"/>the Duty of ſeveral Officers, as alſo of a com<g ref="char:EOLhyphen"/>mon Seaman, during the whole Action, he did not only ſhew himſelf to be an extraordi<g ref="char:EOLhyphen"/>nary ſtout Man, but wonderfully active.</p>
+            <p>Mr. <hi>Ripley</hi> (the Chief Mate of the <hi>Royal William</hi>) was alſo with me, who (after the Maſter of the <hi>Monk</hi> was kill'd) did his Duty, and was a great help to us in ſaving the Ship.</p>
+            <p>Two young Gentlemen, whoſe Names were <hi>Tankard</hi> and <hi>Trow,</hi> were alſo very ſer<g ref="char:EOLhyphen"/>viceable on board the <hi>Monk</hi> in this Action; but the latter had the Misfortune to have his Leg taken off with the very laſt Shot that ſtruck the Ship, of which Wound he died in 3 or 4 hours.</p>
+            <p>The three <hi>Engliſh</hi> and four <hi>Dutch</hi> Men of War, that were then under my Command, have loſt about 400 Men.</p>
+            <p>The Loſs that the Land-Forces have ſu<g ref="char:EOLhyphen"/>ſtain'd, I am not acquainted with; but 'tis reported that the Killed, Wounded and Taken, are about 700 Men.</p>
+            <p>
+               <pb n="42" facs="tcp:56248:22"/>
+               <hi>June</hi> 9th. 1694.</p>
+            <p>PUrſuant to the Reſolutions of a Coun<g ref="char:EOLhyphen"/>cil of War held laſt Night, at Five a-Clock this Morning we came to Sail, the Wind at E. S. E. and ſtood out of the Bay, at Noon had <hi>Fountain-head</hi> S. S. E. four Leagues diſtant, falling calm till ſix in the Evening; then a fine Breeze at N. E. at eight at Night, the South-end of <hi>Uſhant</hi> bore N. by W. four Leagues diſtant.</p>
+            <p>
+               <hi>On the</hi> 10th.</p>
+            <p>At four this Morning, <hi>Uſhant</hi> bore S. E. by S. about five Leagues diſtant, the Wind at E. by S. veering to the S. E. ſeve<g ref="char:EOLhyphen"/>ral Ships appear'd in ſight, which prov'd to be the Bomb-veſſels and Store-ſhips, which we had ſo long wanted: Upon which there was a Council of War called, where being propoſed, whether (ſince their Arrival) we ſhould alter the Reſolutions of the laſt Council of
+<pb n="43" facs="tcp:56248:22"/>War, it was reſolved in the Negative; ſo we made Sail for <hi>Spithead,</hi> and at eight at Night had <hi>Uſhant</hi> S. by E. ½ E. about nine Leagues diſtant.</p>
+            <p>
+               <hi>On the</hi> 11th.</p>
+            <p>Little Wind from E. S. E. to South, in<g ref="char:EOLhyphen"/>clining to Calms. Since we took our depar<g ref="char:EOLhyphen"/>ture laſt Night, we have gone N. E. ſe<g ref="char:EOLhyphen"/>venteen miles diſtant, Latitude <hi>per</hi> Account 49 <hi>d.</hi> 18 <hi>m.</hi> departure from <hi>Uſhant</hi> four miles Eaſt, it being S. ½ W. 38 miles.</p>
+            <p>
+               <hi>On the</hi> 12th.</p>
+            <p>Thick rainy Weather blowing hard all day, the Wind from E. S. E. to W. S. W. and back to S. E. again: Our Courſe <hi>per</hi> board, all Impediments allowed, is N. E ½ N. 52 miles, difference of Latitude 40. and Meridian diſtance 32 miles, Latitude <hi>per</hi> Ac<g ref="char:EOLhyphen"/>count 49 <hi>d.</hi> 58 <hi>m.</hi> Meridian diſtance from <hi>Uſhant</hi> 36 Miles Eaſt, it bearing S. S. W. ½ W. 28 Leag. and 2 miles; about four in the Afternoon
+<pb n="44" facs="tcp:56248:23"/>we handed both Top-ſails, bore up, and came to our Larboard tack till about eleven, then brought to; to the Eaſtward again; and in bearing up, a Ship run on board us, and ſplit our Fore-Sail, and carried away our Fore-top Gallant-maſt, broke his own Spritſail-yard, which with the Sail hung to the bunt of our Fore-ſail, then dropt over<g ref="char:EOLhyphen"/>board: He alſo loſt his Sprit-ſail Top-maſt, and ſo got clear.</p>
+            <p>
+               <hi>On the</hi> 13th.</p>
+            <p>At ſix this Morning we ſaw the <hi>Bolt</hi> North, four Leagues from us; at eight the <hi>Start</hi> had the ſame bearing and diſtance, the Wind at S. W. fair weather, veering to the E. S. E. At eight at night the Bill of <hi>Portland</hi> bore N. E. by E. about four Leagues; then came up with us the <hi>Surlings</hi> and <hi>Newport,</hi> two ſmall Frigats bound for <hi>New England.</hi> All the following Night proved but little Wind.</p>
+            <p>
+               <pb n="45" facs="tcp:56248:23"/>
+               <hi>On the</hi> 14th.</p>
+            <p>At four this morning the Bill of <hi>Portland</hi> bore N. N. W. about 5 Leagues diſtant, the Wind at S. W. a fine ſmall Gale: At twelve we had the <hi>Needles</hi> N. ½ E. about three Leagues diſtant in the Evening; ſometimes Calm, and ſometimes a ſmall Breeze at E. S. E. We drove till the Flood was done, and then anchored in 12 Fathom-water, being 12 a-clock at night, <hi>Donnoze</hi> bearing N. by W. and <hi>Cul. Cliff</hi> N. by E.</p>
+            <p>
+               <hi>On the</hi> 15th.</p>
+            <p>At 6 this morning we weighed, having a fine Gale at S. W. and at half an hour after ten we anchored within St. <hi>Helen's</hi> Road in ſeventeen Fathom-water, where we moored, <hi>Jilkiker</hi> bearing N. W. ½ W. and St. <hi>Helen</hi>'s Point, South-Weſterly.</p>
+            <p>
+               <pb n="46" facs="tcp:56248:24"/>My Lord <hi>Berkeley,</hi> during all this Expedi<g ref="char:EOLhyphen"/>tion, has had a great deal of unuſual trouble by reaſon of the Imbarcations of the Soldiers; notwithſtanding which (both, by his Advice at Councils of War, and iſſuing of Orders, which his Lordſhip has done very methodically) hath behaved himſelf (in my Opinion) with all the Conduct and Prudence that could be expected from any Gentleman in his Station.</p>
+            <p>Lieutenant-General <hi>Talmaſh,</hi> the Earl of <hi>Macclesfield,</hi> my Lord <hi>Cutts,</hi> and all the Offi<g ref="char:EOLhyphen"/>cers of the Land-Forces (I think) have ſhown all the forwardneſs and readineſs imaginable, for the attempting any thing that was poſſible to be done on this occaſion.</p>
+            <p>There are no Officers of Note (that I can yet hear of) kill'd in this Action, but Mon<g ref="char:EOLhyphen"/>ſieur <hi>Lamote;</hi> and Lieutenant-General <hi>Talmaſh</hi> died the <hi>Tueſday</hi> following of the Wound he re<g ref="char:EOLhyphen"/>ceived in his Thigh; but there are ſeveral Captains, <hi>&amp;c.</hi> who are either kill'd or taken, whoſe Names I am as yet ignorant of.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
